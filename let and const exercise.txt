@@ -1,0 +1,23 @@
+var PI = 3.14;
+PI = 42; // stop me from doing this!
+
+/* Write an ES2015 Version */
+
+const PI = 3.14;
+// PI = 42; Causes an Error
+
+- What is the difference between ***var*** and ***let***?
+
+	Var is the old way of creating a variable. A variable declared with var can be reassigned and redeclared. let is a newer method. Variables created with the let method can be reassigned, but not redeclared.
+
+- What is the difference between **var** and ***const***?
+
+	Var is the old way of creating a variable. A variable declared with var can be reassigned and redeclared. const is a newer method. Variables created with the const method can not be reassigned, or redeclared.
+
+- What is the difference between **let** and **const**?
+
+	let can reassign it's value. const can not reassign it's value.
+
+- What is hoisting?
+
+	Hoisting occurs during the compilation of the file. Variables created with the var method are declared first during the compilation even if they are declared at the bottom of the file. Where ever they are declared, during compilation they are brought to the top. 
